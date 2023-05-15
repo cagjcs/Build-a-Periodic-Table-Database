@@ -33,8 +33,7 @@ else
     ATOMIC_MASS=$(echo $ATOMIC_MASS | sed 's/^ *| *$//g'); 
     MELTING_POINT_CELSIUS=$(echo $MELTING_POINT_CELSIUS | sed 's/^ *| *$//g'); 
     BOILING_POINT_CELSIUS=$(echo $BOILING_POINT_CELSIUS | sed 's/^ *| *$//g'); 
-    TYPE=$(echo $TYPE | sed 's/^ *| *$//g');
 
-    echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT_CELSIUS celsius and a boiling point of $BOILING_POINT_CELSIUS celsius."
+   echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT_CELSIUS celsius and a boiling point of $BOILING_POINT_CELSIUS celsius."
   done
 fi	
